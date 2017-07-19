@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="IonicWindowContent">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:45px:noGrow"/>
+    <rowspec value="center:d:grow"/>
+    <colspec value="fill:241px:noGrow"/>
+    <colspec value="fill:246px:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="left:5dlu:noGrow"/>
+    <colspec value="fill:1500px:noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="2010" height="545"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="749db" class="javax.swing.JButton" binding="runButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="run"/>
+        </properties>
+      </component>
+      <component id="de9c4" class="javax.swing.JButton" binding="buildButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="build"/>
+        </properties>
+      </component>
+      <scrollpane id="fdfc0" binding="scrollpan">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="24c47" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints/>
+            <properties>
+              <columns value="100"/>
+              <lineWrap value="true"/>
+              <rows value="14"/>
+              <text value=""/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
