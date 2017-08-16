@@ -104,7 +104,7 @@ public class IonicWindowContent implements ToolWindowFactory {
                                 textArea1.append(new String(bytes));
                                 textArea1.setCaretPosition(textArea1.getDocument().getLength());
                                 try {
-                                    Thread.sleep(50);
+                                    Thread.sleep(500);
                                 } catch (InterruptedException e1) {
                                     e1.printStackTrace();
                                 }
